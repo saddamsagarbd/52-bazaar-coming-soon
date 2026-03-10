@@ -9,7 +9,7 @@ const ComingSoon = () => {
 
   // সিম্পল কাউন্টডাউন (উদাহরণ: ৩০ দিন পর লঞ্চ)
   const calculateTimeLeft = () => {
-    const launchDate = new Date('2026-04-15T00:00:00');
+    const launchDate = new Date('2026-04-14T00:00:00');
     const now = new Date();
     const difference = launchDate.getTime() - now.getTime();
     
